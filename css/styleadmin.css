@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+
+.headeradmin {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #777;
+}
+
+/* h1 */
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 100px;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+h3 {
+    margin: 0;
+    font-size: 2em;
+    color: #3498db;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
+
+/* Danh mục */
+.title-admin h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frmcontent {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.row label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.row input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.row input[type="submit"],
+.row input[type="reset"],
+.row a input[type="button"] {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.row input[type="submit"]:hover,
+.row input[type="reset"]:hover,
+.row a input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+.row p {
+    color: red;
+    margin-top: 10px;
+}
+/* Quànr Lý */
+.boxtitle-quanly h2{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thongbao{
+    color: red;
+}
